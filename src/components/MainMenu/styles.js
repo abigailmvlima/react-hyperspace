@@ -2,12 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row;
-  height: 100vh;
-`;
-
-export const Main = styled.div`
-  display: flex;
   width: 30%;
   background-color: #312450;
   flex-direction: column;
@@ -38,10 +32,6 @@ export const Page = styled.section`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-`;
-
-export const Footer = styled.div`
-  display: flex;
 `;
 
 export const Row = styled.div`
@@ -77,4 +67,8 @@ export const Button = styled.button`
   padding: 10px 10px;
   border: 1px solid #fff;
   color: #fff;
+`;
+
+export const Footer = styled.div`
+  display: flex;
 `;
