@@ -8,7 +8,7 @@ export const Container = styled.div`
   justify-content: center;
 `;
 
-export const MainContent = styled.a`
+export const MainContent = styled.div`
   display: flex;
   justify-content: flex-end;
   color: rgba(255, 255, 255, 0.35);
@@ -16,6 +16,7 @@ export const MainContent = styled.a`
   padding: 15px 15px;
   margin: 5px 30px;
   text-decoration: none;
+  cursor: pointer;
 `;
 
 export const Content = styled.div`

@@ -1,11 +1,14 @@
 import { memo } from "react";
 
+import MainMenu from "../../components/MainMenu";
+
 import * as ST from "./styles";
 
 const WhoWeAre = () => {
   return (
     <ST.Container>
-      <div>foto1</div>
+      <MainMenu />
+      {/* <div>foto1</div>
       <div>
         Conteudo Foto1
         <div>Title1</div>
@@ -22,7 +25,7 @@ const WhoWeAre = () => {
         <div>
           <button>Learn More2</button>
         </div>
-      </div>
+      </div> */}
     </ST.Container>
   );
 };

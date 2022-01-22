@@ -5,27 +5,9 @@ import MainMenu from "../../components/MainMenu";
 import * as ST from "./styles";
 
 const HomeView = () => {
-  const listMain = [
-    {
-      label: "Welcome",
-      href: "#intro",
-    },
-    {
-      label: "Who We Are",
-      href: "#one",
-    },
-    {
-      label: "What We Do",
-      href: "#two",
-    },
-    {
-      label: "Get In Touch",
-      href: "#three",
-    },
-  ];
   return (
     <ST.Container>
-      <MainMenu listMain={listMain} />
+      <MainMenu />
       <ST.Content>
         <ST.Page id="intro">
           <ST.Row>
