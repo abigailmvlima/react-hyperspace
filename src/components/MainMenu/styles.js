@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -6,6 +6,11 @@ export const Container = styled.div`
   background-color: #312450;
   flex-direction: column;
   justify-content: center;
+`;
+
+const cssActive = css`
+  color: #fff;
+  border-bottom: 1px solid #b74e91;
 `;
 
 export const MainContent = styled.div`
@@ -17,6 +22,8 @@ export const MainContent = styled.div`
   margin: 5px 30px;
   text-decoration: none;
   cursor: pointer;
+
+  ${({ activePage }) => activePage == true && cssActive};
 `;
 
 export const Content = styled.div`

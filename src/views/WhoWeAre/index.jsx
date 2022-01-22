@@ -7,7 +7,7 @@ import * as ST from "./styles";
 const WhoWeAre = () => {
   return (
     <ST.Container>
-      <MainMenu />
+      <MainMenu activePage={"whoweare"} />
       {/* <div>foto1</div>
       <div>
         Conteudo Foto1

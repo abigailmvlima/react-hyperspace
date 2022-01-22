@@ -7,7 +7,7 @@ import * as ST from "./styles";
 const GetInTouch = () => {
   return (
     <ST.Container>
-      <MainMenu />
+      <MainMenu activePage={"getintouch"} />
     </ST.Container>
   );
 };

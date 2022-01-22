@@ -7,7 +7,7 @@ import * as ST from "./styles";
 const HomeView = () => {
   return (
     <ST.Container>
-      <MainMenu />
+      <MainMenu activePage={"welcome"} />
       <ST.Content>
         <ST.Page id="intro">
           <ST.Row>

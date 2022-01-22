@@ -3,7 +3,7 @@ import actions from "../../stores/actions";
 
 import * as ST from "./styles";
 
-const MainMenu = () => {
+const MainMenu = ({ activePage }) => {
   const listMain = [
     {
       label: "Welcome",
@@ -39,8 +39,13 @@ const MainMenu = () => {
     <ST.Container>
       {listMain &&
         listMain.map((row, key) => {
+          console.log(row.name, activePage);
           return (
-            <ST.MainContent onClick={() => row.onClick()} key={key}>
+            <ST.MainContent
+              activePage={row.name == activePage}
+              onClick={() => row.onClick()}
+              key={key}
+            >
               {row.label}
             </ST.MainContent>
           );

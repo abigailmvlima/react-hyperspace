@@ -7,7 +7,7 @@ import * as ST from "./styles";
 const WhatWeDo = () => {
   return (
     <ST.Container>
-      <MainMenu />
+      <MainMenu activePage={"whatwedo"} />
     </ST.Container>
   );
 };
