@@ -45,6 +45,7 @@ export const Footer = styled.div`
 export const Row = styled.div`
   display: flex;
   flex-direction: column;
+  margin: 20px 20px;
 `;
 
 export const Title = styled.div`
@@ -58,7 +59,7 @@ export const Title = styled.div`
 
 export const Description = styled.div`
   display: flex;
-  margin: 10px 120px 20px 20px;
+  margin: 20px 20px;
   font-size: 16px;
   color: #d0c9f0;
 `;
