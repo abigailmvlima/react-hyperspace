@@ -19,8 +19,6 @@ export const MainContent = styled.a`
   justify-content: flex-end;
   color: rgba(255, 255, 255, 0.35);
   border-bottom: 1px solid #3c2c62;
-  padding: 15px 15px;
-  margin: 5px 30px;
   text-decoration: none;
 `;
 
@@ -58,7 +56,7 @@ export const Title = styled.div`
   color: #fff;
 `;
 
-export const Descripition = styled.div`
+export const Description = styled.div`
   display: flex;
   margin: 10px 120px 20px 20px;
   font-size: 16px;

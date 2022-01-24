@@ -2,17 +2,21 @@ import { memo } from "react";
 
 import * as ST from "./styles";
 
-const rowImage = () => {
+const rowImage = ({ theme, title, description, onClick }) => {
   return (
     <ST.container>
       <ST.contentImage>
-        <ST.image>img</ST.image>
+        <ST.image theme={theme} />
       </ST.contentImage>
-      <ST.contentText>
-        <ST.title>title</ST.title>
-        <ST.descripition>descripition</ST.descripition>
-        <ST.button>button</ST.button>
-      </ST.contentText>
+      <ST.ContainerEx>
+        <ST.contentText>
+          <ST.title>{title}</ST.title>
+          <ST.description>{description}</ST.description>
+          <ST.ButtonContainer>
+            <ST.button>Learn More</ST.button>
+          </ST.ButtonContainer>
+        </ST.contentText>
+      </ST.ContainerEx>
     </ST.container>
   );
 };
