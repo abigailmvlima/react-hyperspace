@@ -7,7 +7,7 @@ const WhatTab = ({ theme, title, description }) => {
     <ST.colunnTable>
       <ST.colunnTable2>
         <ST.divIcon>
-          <ST.colunnIcon>{theme}</ST.colunnIcon>
+          <ST.colunnIcon theme={theme} />
         </ST.divIcon>
         <ST.colunnContent>
           <ST.colunnTitle>{title}</ST.colunnTitle>
