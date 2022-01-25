@@ -2,6 +2,7 @@ import { memo } from "react";
 
 import MainMenu from "../../components/MainMenu";
 import WhatTab from "../../components/WhatTab";
+import Footer from "../../components/Footer";
 
 import * as ST from "./styles";
 
@@ -72,6 +73,7 @@ const WhatWeDo = () => {
         <ST.ButtonContainer>
           <ST.Button>Learn More</ST.Button>
         </ST.ButtonContainer>
+        <Footer />
       </ST.content>
     </ST.container>
   );

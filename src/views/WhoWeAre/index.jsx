@@ -2,6 +2,7 @@ import { memo } from "react";
 
 import MainMenu from "../../components/MainMenu";
 import RowImage from "../../components/RowImage";
+import Footer from "../../components/Footer";
 
 import * as ST from "./styles";
 
@@ -46,6 +47,7 @@ const WhoWeAre = () => {
             />
           );
         })}
+        <Footer />
       </ST.content>
     </ST.container>
   );

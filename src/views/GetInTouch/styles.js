@@ -44,8 +44,8 @@ export const contentForm = styled.div`
   display: flex;
   flex-direction: column;
   width: 300px;
-  margin: 10px 40px;
-  background-color: #28f207;
+  margin: 20px 60px;
+  background-color: #021;
 `;
 
 export const nameMail = styled.div`
@@ -56,24 +56,33 @@ export const nameMail = styled.div`
 export const formName = styled.div`
   display: flex;
   width: 100px;
-  background-color: #bfd1fe;
+  margin: 10px 0;
+  font-size: 18px;
+  border: 1px solid #fff;
+  color: #fff;
 `;
 
 export const formMail = styled.div`
   display: flex;
   width: 100px;
-  background-color: #ffd1fe;
+  margin: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  color: #fff;
 `;
 
 export const formMessage = styled.div`
   display: flex;
-  background-color: #f2a907;
+  font-size: 18px;
+  margin: 10px 0;
+  border: 1px solid #fff;
+  color: #fff;
 `;
 
 export const formBt = styled.div`
   display: flex;
   background-color: transparent;
-  margin: 20px 20px;
+  margin: 20px 0;
   border-radius: 20px;
   padding: 10px 10px;
   border: 1px solid #fff;

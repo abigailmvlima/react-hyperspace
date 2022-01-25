@@ -1,6 +1,7 @@
 import { memo } from "react";
 
 import MainMenu from "../../components/MainMenu";
+import Footer from "../../components/Footer";
 
 import * as ST from "./styles";
 
@@ -21,6 +22,7 @@ const HomeView = () => {
             </ST.ButtonContainer>
           </ST.Row>
         </ST.Page>
+        <Footer />
       </ST.Content>
     </ST.Container>
   );
