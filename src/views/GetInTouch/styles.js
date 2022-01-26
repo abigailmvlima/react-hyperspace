@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const content = styled.div`
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   overflow-y: auto;
 `;
 
@@ -38,45 +38,18 @@ export const contDescription = styled.div`
 export const contFormDados = styled.div`
   display: flex;
   flex-direction: row;
+  margin: 10px 40px;
 `;
 
-export const contentForm = styled.div`
+export const Form = styled.div`
   display: flex;
   flex-direction: column;
-  width: 300px;
-  margin: 20px 60px;
-  background-color: #021;
+  padding-right: 10px;
 `;
 
-export const nameMail = styled.div`
+export const FormContent = styled.div`
   display: flex;
   flex-direction: row;
-`;
-
-export const formName = styled.div`
-  display: flex;
-  width: 100px;
-  margin: 10px 0;
-  font-size: 18px;
-  border: 1px solid #fff;
-  color: #fff;
-`;
-
-export const formMail = styled.div`
-  display: flex;
-  width: 100px;
-  margin: 10px 20px;
-  font-size: 18px;
-  border: 1px solid #fff;
-  color: #fff;
-`;
-
-export const formMessage = styled.div`
-  display: flex;
-  font-size: 18px;
-  margin: 10px 0;
-  border: 1px solid #fff;
-  color: #fff;
 `;
 
 export const formBt = styled.div`
@@ -91,7 +64,6 @@ export const formBt = styled.div`
 
 export const ContDados = styled.div`
   display: flex;
-  width: 300px;
   flex-direction: column;
 `;
 

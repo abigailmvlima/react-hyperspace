@@ -2,6 +2,8 @@ import { memo } from "react";
 
 import MainMenu from "../../components/MainMenu";
 import Footer from "../../components/Footer";
+import Input from "../../components/forms/Input";
+import TextArea from "../../components/forms/TextArea";
 
 import * as ST from "./styles";
 
@@ -38,14 +40,15 @@ const GetInTouch = () => {
           </ST.contDescription>
         </ST.contentInfo>
         <ST.contFormDados>
-          <ST.contentForm>
-            <ST.nameMail>
-              <ST.formName>name</ST.formName>
-              <ST.formMail>mail</ST.formMail>
-            </ST.nameMail>
-            <ST.formMessage>message</ST.formMessage>
+          <ST.Form>
+            <ST.FormContent>
+              <Input label={"Name"} />
+              <Input type={"mail"} label={"Mail"} />
+            </ST.FormContent>
+            <TextArea label={"Message"} />
             <ST.formBt>Button</ST.formBt>
-          </ST.contentForm>
+          </ST.Form>
+
           <ST.ContDados>
             <ST.dadosAddress>Address</ST.dadosAddress>
             <ST.infoAddress>
