@@ -9,7 +9,7 @@ export const container = styled.div`
 export const content = styled.div`
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   background-color: #b74e91;
   position: relative;
 `;
@@ -45,14 +45,15 @@ export const contentTable = styled.div`
 
 export const ButtonContainer = styled.div`
   display: flex;
+  margin: 10px 10px;
 `;
 
 export const Button = styled.button`
   background-color: transparent;
   display: flex;
-  margin: 20px 20px;
+  margin: 20px 30px;
   border-radius: 20px;
-  padding: 10px 10px;
+  padding: 10px 20px;
   border: 1px solid #fff;
   color: #fff;
 `;

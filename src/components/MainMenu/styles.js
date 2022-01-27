@@ -28,7 +28,7 @@ export const MainContent = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  width: 70%;
+  width: 80%;
   background-color: #9a70fa;
   flex-direction: column;
   overflow: auto;

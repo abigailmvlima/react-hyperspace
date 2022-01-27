@@ -19,6 +19,8 @@ export const Content = styled.div`
 
 export const Input = styled.input`
   border-radius: 5px;
+  border: 1px solid #9175eb;
   padding: 8px 8px;
   font-size: 16px;
+  background: #7c65c9;
 `;

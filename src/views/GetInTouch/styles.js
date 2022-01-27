@@ -54,11 +54,13 @@ export const FormContent = styled.div`
 
 export const formBt = styled.div`
   display: flex;
+  justify-content: center;
+  width: 30%;
   background-color: transparent;
   margin: 20px 0;
   border-radius: 20px;
   padding: 10px 10px;
-  border: 1px solid #fff;
+  border: 1px solid #aba5c4;
   color: #fff;
 `;
 

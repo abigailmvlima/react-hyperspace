@@ -46,7 +46,7 @@ const GetInTouch = () => {
               <Input type={"mail"} label={"Mail"} />
             </ST.FormContent>
             <TextArea label={"Message"} />
-            <ST.formBt>Button</ST.formBt>
+            <ST.formBt>Send Message</ST.formBt>
           </ST.Form>
 
           <ST.ContDados>

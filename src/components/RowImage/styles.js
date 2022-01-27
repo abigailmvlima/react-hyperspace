@@ -90,7 +90,7 @@ export const button = styled.button`
   display: flex;
   letter-spacing: 1px;
   font-size: 10px;
-  padding: 8px 20px;
+  padding: 10px 20px;
   background-color: transparent;
   border-radius: 20px;
   border: 1px solid #d0c9f0;

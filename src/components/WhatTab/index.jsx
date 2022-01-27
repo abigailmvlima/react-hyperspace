@@ -2,7 +2,7 @@ import { memo } from "react";
 
 import * as ST from "./styles";
 
-const WhatTab = ({ theme, title, description }) => {
+const WhatTab = ({ theme, title, description, onClick }) => {
   return (
     <ST.colunnTable>
       <ST.colunnTable2>

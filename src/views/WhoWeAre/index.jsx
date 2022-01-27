@@ -26,12 +26,6 @@ const WhoWeAre = () => {
         "Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.",
       theme: 3,
     },
-    {
-      title: "Ultricies aliquam",
-      description:
-        "Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.",
-      theme: 4,
-    },
   ];
   return (
     <ST.container>

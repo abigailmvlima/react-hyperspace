@@ -9,6 +9,6 @@ export const container = styled.div`
 export const content = styled.div`
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   overflow-y: auto;
 `;

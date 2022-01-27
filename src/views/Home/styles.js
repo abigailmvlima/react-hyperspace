@@ -24,7 +24,7 @@ export const MainContent = styled.a`
 
 export const Content = styled.div`
   display: flex;
-  width: 70%;
+  width: 80%;
   background-color: #9a70fa;
   flex-direction: column;
   overflow: auto;
@@ -73,7 +73,7 @@ export const Button = styled.button`
   display: flex;
   margin: 20px 20px;
   border-radius: 20px;
-  padding: 10px 10px;
+  padding: 10px 20px;
   border: 1px solid #fff;
   color: #fff;
 `;

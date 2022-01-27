@@ -23,4 +23,6 @@ export const Content = styled.div`
 
 export const TextArea = styled.textarea`
   border-radius: 5px;
+  border: 1px solid #9175eb;
+  background: #7c65c9;
 `;
