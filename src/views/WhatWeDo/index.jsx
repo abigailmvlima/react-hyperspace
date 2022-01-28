@@ -49,30 +49,30 @@ const WhatWeDo = () => {
     <ST.container>
       <MainMenu activePage={"whatwedo"} />
       <ST.content>
-        <ST.contentTitle>
-          <ST.title>What we do</ST.title>
-          <ST.description>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-            lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-            imperdiet est velit quis lorem.
-          </ST.description>
-        </ST.contentTitle>
-        <ST.contentTable>
-          {list.map((row, key) => {
-            return (
-              <WhatTab
-                key={key}
-                title={row.title}
-                description={row.description}
-                theme={row.theme}
-              />
-            );
-          })}
-        </ST.contentTable>
-        <ST.ButtonContainer>
-          <ST.Button>Learn More</ST.Button>
-        </ST.ButtonContainer>
+        <ST.ContentSelf>
+          <ST.contentTitle>
+            <ST.title>What we do</ST.title>
+            <ST.description>
+              Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
+              turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
+              lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
+              imperdiet est velit quis lorem.
+            </ST.description>
+          </ST.contentTitle>
+          <ST.contentTable>
+            {list.map((row, key) => {
+              return (
+                <WhatTab
+                  key={key}
+                  title={row.title}
+                  description={row.description}
+                  theme={row.theme}
+                />
+              );
+            })}
+            <ST.Button>Learn More</ST.Button>
+          </ST.contentTable>
+        </ST.ContentSelf>
         <Footer />
       </ST.content>
     </ST.container>

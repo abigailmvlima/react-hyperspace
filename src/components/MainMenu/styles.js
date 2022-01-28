@@ -2,28 +2,54 @@ import styled, { css } from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  width: 20%;
+  width: 24%;
   background-color: #312450;
   flex-direction: column;
   justify-content: center;
 `;
 
+const cssRisca = css`
+  background: rgb(90, 67, 144);
+  background: linear-gradient(
+    90deg,
+    rgba(90, 67, 144, 0.9812932761318712) 0%,
+    rgba(94, 70, 151, 1) 26%,
+    rgba(204, 73, 184, 0.9662330351680158) 100%
+  );
+`;
+
+export const Risca = styled.div`
+  display: flex;
+  height: 3px;
+  background-color: #3c2c62;
+
+  ${({ activePage }) => activePage == true && cssRisca};
+`;
+
 const cssActive = css`
   color: #fff;
-  border-bottom: 1px solid #b74e91;
 `;
 
 export const MainContent = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
   color: rgba(255, 255, 255, 0.35);
-  border-bottom: 1px solid #3c2c62;
   padding: 15px 15px;
   margin: 5px 30px;
   text-decoration: none;
   cursor: pointer;
 
   ${({ activePage }) => activePage == true && cssActive};
+`;
+
+export const MainContentLabel = styled.div`
+  display: flex;
+  margin: 0 0 10px 0;
+  letter-spacing: 1.8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11.5px;
+  justify-content: flex-end;
 `;
 
 export const Content = styled.div`
@@ -45,38 +71,4 @@ export const Page = styled.section`
 export const Row = styled.div`
   display: flex;
   flex-direction: column;
-`;
-
-export const Title = styled.div`
-  display: flex;
-  margin: 20px 20px;
-  letter-spacing: 1px;
-  font-size: 30px;
-  font-weight: bold;
-  color: #fff;
-`;
-
-export const Descripition = styled.div`
-  display: flex;
-  margin: 10px 120px 20px 20px;
-  font-size: 16px;
-  color: #d0c9f0;
-`;
-
-export const ButtonContainer = styled.div`
-  display: flex;
-`;
-
-export const Button = styled.button`
-  background-color: transparent;
-  display: flex;
-  margin: 20px 20px;
-  border-radius: 20px;
-  padding: 10px 10px;
-  border: 1px solid #fff;
-  color: #fff;
-`;
-
-export const Footer = styled.div`
-  display: flex;
 `;

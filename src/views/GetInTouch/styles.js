@@ -10,9 +10,15 @@ export const content = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
+  min-height: 100%;
   overflow-y: auto;
+  justify-content: space-between;
 `;
 
+export const ContentSelf = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 export const contentInfo = styled.div`
   display: flex;
   flex-direction: column;

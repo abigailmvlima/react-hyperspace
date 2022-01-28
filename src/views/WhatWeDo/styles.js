@@ -10,19 +10,26 @@ export const content = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
+  min-height: 100%;
+  justify-content: space-between;
   background-color: #b74e91;
-  position: relative;
+  overflow-y: auto;
+`;
+
+export const ContentSelf = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 
 export const contentTitle = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 10px 40px;
+  margin: 5px 20px;
 `;
 
 export const title = styled.div`
   display: flex;
-  margin: 20px 20px;
+  margin: 10px 20px;
   letter-spacing: 1px;
   font-size: 30px;
   font-weight: bold;
@@ -31,7 +38,7 @@ export const title = styled.div`
 
 export const description = styled.div`
   display: flex;
-  margin: 10px 120px 20px 20px;
+  margin: 5px 120px 3px 20px;
   font-size: 16px;
   color: #d0c9f0;
 `;
@@ -43,15 +50,10 @@ export const contentTable = styled.div`
   margin: 30px 40px;
 `;
 
-export const ButtonContainer = styled.div`
-  display: flex;
-  margin: 10px 10px;
-`;
-
 export const Button = styled.button`
   background-color: transparent;
   display: flex;
-  margin: 20px 30px;
+  margin: 40px 0;
   border-radius: 20px;
   padding: 10px 20px;
   border: 1px solid #fff;

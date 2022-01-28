@@ -31,16 +31,18 @@ const WhoWeAre = () => {
     <ST.container>
       <MainMenu activePage={"whoweare"} />
       <ST.content>
-        {list.map((row, key) => {
-          return (
-            <RowImage
-              key={key}
-              title={row.title}
-              description={row.description}
-              theme={row.theme}
-            />
-          );
-        })}
+        <ST.ContentSelf>
+          {list.map((row, key) => {
+            return (
+              <RowImage
+                key={key}
+                title={row.title}
+                description={row.description}
+                theme={row.theme}
+              />
+            );
+          })}
+        </ST.ContentSelf>
         <Footer />
       </ST.content>
     </ST.container>
