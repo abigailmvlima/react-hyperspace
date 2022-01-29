@@ -12,50 +12,57 @@ export const content = styled.div`
   width: 80%;
   min-height: 100%;
   justify-content: space-between;
-  background-color: #b74e91;
+  background-color: #a85d8f;
   overflow-y: auto;
 `;
 
 export const ContentSelf = styled.div`
   display: flex;
   flex-direction: column;
+  margin: 80px 40px;
 `;
 
-export const contentTitle = styled.div`
+export const ContentTitle = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 5px 20px;
+  margin: 0 20px;
+  padding: 0 20px;
 `;
 
-export const title = styled.div`
+export const Title = styled.div`
   display: flex;
-  margin: 10px 20px;
+  margin-bottom: 25px;
   letter-spacing: 1px;
   font-size: 30px;
   font-weight: bold;
   color: #fff;
 `;
 
-export const description = styled.div`
+export const Description = styled.div`
   display: flex;
-  margin: 5px 120px 3px 20px;
-  font-size: 16px;
-  color: #d0c9f0;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.55);
 `;
 
-export const contentTable = styled.div`
+export const ContentTable = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 30px 40px;
+  margin: 0 40px;
 `;
 
 export const Button = styled.button`
   background-color: transparent;
   display: flex;
-  margin: 40px 0;
-  border-radius: 20px;
-  padding: 10px 20px;
-  border: 1px solid #fff;
+  margin: 50px 0;
+  border-radius: 30px;
+  padding: 14px 36px;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
+  letter-spacing: 1.2px;
+  font-size: 12px;
 `;

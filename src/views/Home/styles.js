@@ -57,7 +57,7 @@ export const Row = styled.div`
 
 export const Title = styled.div`
   display: flex;
-  margin: 20px 50px;
+  margin: 240px 0 30px 50px;
   letter-spacing: 1px;
   font-size: 48px;
   font-weight: bold;
@@ -65,14 +65,17 @@ export const Title = styled.div`
 `;
 
 export const Description = styled.div`
-  margin: 20px 50px;
-  margin-right: 30%;
+  margin: 0 50px;
+  text-align: justify;
+  margin-right: 26.5%;
   letter-spacing: 1px;
   font-size: 19.8px;
+  line-height: 35px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(255, 255, 255, 0.55);
   & span {
     text-decoration: underline 1px;
+    margin: 0 5px;
   }
 `;
 
@@ -83,7 +86,7 @@ export const ButtonContainer = styled.div`
 export const Button = styled.button`
   background-color: transparent;
   display: flex;
-  margin: 20px 50px;
+  margin: 50px 50px;
   border-radius: 30px;
   padding: 20px 40px;
   letter-spacing: 3px;

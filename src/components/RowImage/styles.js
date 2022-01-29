@@ -30,7 +30,6 @@ const theme3 = css`
 export const container = styled.div`
   display: flex;
   flex-direction: row;
-  height: 220px;
   background: rgb(115, 101, 255);
   background: linear-gradient(
     180deg,
@@ -42,7 +41,7 @@ export const container = styled.div`
 export const contentImage = styled.div`
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 32%;
 `;
 
 export const image = styled.div`
@@ -58,17 +57,11 @@ export const image = styled.div`
       : theme1};
 `;
 
-export const contentText = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  margin: 20px 0;
-`;
-
 export const title = styled.div`
   display: flex;
-  margin: 0 20px;
-  font-size: 20px;
+  margin: 0 50px;
+  margin-bottom: 15px;
+  font-size: 30px;
   letter-spacing: 1px;
   font-weight: bold;
   color: #fff;
@@ -76,30 +69,40 @@ export const title = styled.div`
 
 export const description = styled.div`
   display: flex;
-  margin: 10px 20px;
-  font-size: 12px;
-  color: #d0c9f0;
+  margin: 0 50px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
 `;
 
 export const ButtonContainer = styled.div`
   display: flex;
-  margin: 10px 20px;
+  margin: 0 50px;
 `;
 
 export const button = styled.button`
   display: flex;
   letter-spacing: 1px;
-  font-size: 10px;
-  padding: 10px 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 15px 30px;
+  text-transform: uppercase;
   background-color: transparent;
-  border-radius: 20px;
-  border: 1px solid #d0c9f0;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 `;
 
-export const ContainerEx = styled.div`
+export const ContainerText = styled.div`
   display: flex;
-  width: 100%;
-  height: 100%;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 68%;
+`;
+
+export const ContentText = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0;
 `;

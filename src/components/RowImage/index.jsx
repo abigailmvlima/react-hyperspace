@@ -8,15 +8,15 @@ const rowImage = ({ theme, title, description, onClick }) => {
       <ST.contentImage>
         <ST.image theme={theme} />
       </ST.contentImage>
-      <ST.ContainerEx>
-        <ST.contentText>
+      <ST.ContainerText>
+        <ST.ContentText>
           <ST.title>{title}</ST.title>
           <ST.description>{description}</ST.description>
           <ST.ButtonContainer>
             <ST.button>Learn More</ST.button>
           </ST.ButtonContainer>
-        </ST.contentText>
-      </ST.ContainerEx>
+        </ST.ContentText>
+      </ST.ContainerText>
     </ST.container>
   );
 };

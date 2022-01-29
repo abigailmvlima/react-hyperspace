@@ -15,7 +15,7 @@ const WhatWeDo = () => {
       theme: 1,
     },
     {
-      title: "Aliquam sed nullamsum amet",
+      title: "Aliquam sed nullam",
       description:
         "Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.",
       theme: 2,
@@ -50,16 +50,16 @@ const WhatWeDo = () => {
       <MainMenu activePage={"whatwedo"} />
       <ST.content>
         <ST.ContentSelf>
-          <ST.contentTitle>
-            <ST.title>What we do</ST.title>
-            <ST.description>
+          <ST.ContentTitle>
+            <ST.Title>What we do</ST.Title>
+            <ST.Description>
               Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
               turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
               lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
               imperdiet est velit quis lorem.
-            </ST.description>
-          </ST.contentTitle>
-          <ST.contentTable>
+            </ST.Description>
+          </ST.ContentTitle>
+          <ST.ContentTable>
             {list.map((row, key) => {
               return (
                 <WhatTab
@@ -71,7 +71,7 @@ const WhatWeDo = () => {
               );
             })}
             <ST.Button>Learn More</ST.Button>
-          </ST.contentTable>
+          </ST.ContentTable>
         </ST.ContentSelf>
         <Footer />
       </ST.content>

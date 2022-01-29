@@ -16,8 +16,8 @@ const HomeView = () => {
               <ST.Title>Hyperspace</ST.Title>
               <ST.Description>
                 Just another fine responsive site template designed by
-                <span>HTML5 UP</span>
-                and released for free under the <span>Creative Commons.</span>
+                <span>HTML5 UP</span>and released for free under the
+                <span>Creative Commons.</span>
               </ST.Description>
               <ST.ButtonContainer>
                 <ST.Button>LEARN MORE</ST.Button>
