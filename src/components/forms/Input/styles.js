@@ -8,10 +8,12 @@ export const Container = styled.div`
 
 export const Label = styled.div`
   display: flex;
-  font-size: 14px;
-  margin: 5px 3px;
+  font-size: 18px;
+  margin: 0 3px;
+  margin-bottom: 16px;
   font-weight: bold;
   color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 `;
 export const Content = styled.div`
   display: flex;
@@ -20,7 +22,8 @@ export const Content = styled.div`
 export const Input = styled.input`
   border-radius: 5px;
   border: 1px solid #9175eb;
-  padding: 8px 8px;
+  padding: 13px 13px;
   font-size: 16px;
   background: #7c65c9;
+  font-family: Arial, Helvetica, sans-serif;
 `;

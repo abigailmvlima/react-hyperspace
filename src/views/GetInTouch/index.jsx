@@ -47,16 +47,17 @@ const GetInTouch = () => {
                 <Input type={"mail"} label={"Mail"} />
               </ST.FormContent>
               <TextArea label={"Message"} />
-              <ST.formBt>Send Message</ST.formBt>
+              <ST.formBt>SEND MESSAGE</ST.formBt>
             </ST.Form>
-
             <ST.ContDados>
               <ST.dadosAddress>Address</ST.dadosAddress>
               <ST.infoAddress>
                 12345 Somewhere Road #654 Nashville, TN 00000-0000 USA
               </ST.infoAddress>
               <ST.dadosMail>Mail</ST.dadosMail>
-              <ST.infoMail>user@untitled.tld</ST.infoMail>
+              <ST.infoMail>
+                <span>user@untitled.tld</span>
+              </ST.infoMail>
               <ST.dadosPhone>Phone</ST.dadosPhone>
               <ST.infoPhone>(000) 000-0000</ST.infoPhone>
               <ST.dadosSocial>Social</ST.dadosSocial>
